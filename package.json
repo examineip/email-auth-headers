@@ -1,0 +1,14 @@
+{
+  "name": "email-auth-headers",
+  "version": "1.0.0",
+  "description": "Read raw email headers and explain whether the message authenticated (SPF, DKIM, DMARC), where it came from, and whether anything looks forged.",
+  "main": "email-auth-headers.js",
+  "bin": { "email-auth-headers": "email-auth-headers.js" },
+  "private": true,
+  "scripts": { "test": "node tests/run.js" },
+  "keywords": ["email", "headers", "spf", "dkim", "dmarc", "phishing", "authentication-results"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/examineip/email-auth-headers.git" },
+  "homepage": "https://tools.examineip.com/email-header-analyzer/",
+  "engines": { "node": ">=18" }
+}

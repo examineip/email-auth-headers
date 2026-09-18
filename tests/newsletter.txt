@@ -1,0 +1,10 @@
+Received: from mail123.us5.mcsv.net (mail123.us5.mcsv.net [198.2.130.10])
+        by mx.example.com with ESMTPS; Mon, 14 Sep 2026 10:00:02 +0000
+Authentication-Results: mx.example.com;
+       dkim=pass header.i=@shop.example header.s=k1;
+       dkim=pass header.i=@mailchimpapp.net header.s=k3;
+       spf=pass smtp.mailfrom=bounce-mc.us5_123@mail123.us5.mcsv.net;
+       dmarc=pass (p=QUARANTINE) header.from=shop.example
+Return-Path: <bounce-mc.us5_123@mail123.us5.mcsv.net>
+From: Shop <news@shop.example>
+Subject: This week at Shop
